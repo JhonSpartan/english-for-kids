@@ -1,0 +1,57 @@
+@font-face {
+  font-family: azoft;
+  src: url(../../public/fonts/azoft-sans.ttf);
+}
+
+@font-face {
+  font-family: azoft-bold;
+  src: url(../../public/fonts/azoft-sans-bold.ttf);
+}
+
+@font-face {
+  font-family: charis-i;
+  src: url(../../public/fonts/CharisSILI.ttf);
+}
+
+@font-face {
+  font-family: charis-r;
+  src: url(../../public/fonts/CharisSILR.ttf);
+}
+
+@font-face {
+  font-family: days;
+  src: url(../../public/fonts/Days.otf);
+}
+
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.container {
+  display: grid;
+  // grid-template-rows: 100vh;
+  grid-template-columns: [full-start] 1fr [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] 1fr [full-end];
+}
+
+.account-container {
+  display: grid;
+  grid-template-rows: 10vh min-content;
+  grid-template-columns: [sidebar-start] 20rem [sidebar-end full-start] 1fr repeat(8, minmax(min-content, 14rem)) 1fr [full-end];
+}

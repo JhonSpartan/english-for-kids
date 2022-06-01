@@ -1,0 +1,54 @@
+//PAGES
+@import "pages/home";
+
+//BASE
+@import "base/base";
+
+// COMPONENTS (home)
+@import "components/header";
+@import "components/navbar";
+@import "components/applicationForm";
+@import "components/contacts";
+@import "components/about";
+@import "components/enrollment";
+@import "components/methodology";
+@import "components/announcements";
+@import "components/teachers";
+@import "components/modal";
+@import "components/shared/getBack";
+@import "components/slider/slider";
+@import "components/form";
+@import "components/sendBtn";
+
+
+
+
+
+
+// COMPONENTS (account)
+@import "components/accountComponents/generalComponents/accountHeader";
+@import "components/accountComponents/generalComponents/sidebar";
+
+@import "components/accountComponents/specificComponents/groups";
+@import "components/accountComponents/specificComponents/students";
+@import "components/accountComponents/specificComponents/basicTable";
+@import "components/accountComponents/specificComponents/globalFilter";
+
+@import "components/accountComponents/specificComponents/schedule/schedule";
+
+@import "components/accountComponents/specificComponents/timeTable/calendarGrid";
+@import "components/accountComponents/specificComponents/timeTable/calendarCell";
+@import "components/accountComponents/specificComponents/timeTable/timeTable";
+@import "components/accountComponents/specificComponents/timeTable/calendarControlls";
+@import "components/accountComponents/specificComponents/timeTable/calendarHeader";
+
+
+
+
+
+
+
+
+
+
+

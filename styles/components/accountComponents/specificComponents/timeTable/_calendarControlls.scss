@@ -1,0 +1,37 @@
+.calendar-controlls {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1e1f21;
+  color: #dcdddd;
+  padding: 1rem;
+
+  &__month {
+    font-size: 3.2rem;
+    margin-right: 1rem;
+  }
+
+  &__year {
+    font-size: 3.2rem;
+    font-weight: bold;
+  }
+
+  &__buttons {
+    display: flex;
+    align-items: center;
+  }
+
+  &__buttons button {
+    border: unset;
+    background-color: #565759;
+    padding: .8rem 1.3rem;
+    border-radius: 4px;
+    color: #e6e6e6;
+    cursor: pointer;
+  }
+
+  &__current {
+    margin-right: .3rem;
+    margin-left: .3rem;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,47 @@
+.get-back {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0 0 50px 0 rgb(0 0 0 / 20%);
+  z-index: 200;
+  background-color: rgba(255, 255, 255, .8);
+  margin-bottom: 10rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  // box-shadow: 3px 3px 10px rgb(0 0 0 / 10%);
+
+  & span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 2.5rem;
+    color: #001028;
+    animation: bottom-to-top 1.5s ease infinite;
+    transition: .5s;
+  }
+
+  @keyframes bottom-to-top {
+    0% {
+      transform: translate(-45%, -45%) rotate(-90deg);
+    }
+    50% {
+      transform: translate(-45%, -55%) rotate(-90deg);
+    }
+    100% {
+      transform: translate(-45%, -45%) rotate(-90deg);
+    }
+  }
+
+}
+
+.back-sticky {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+}
