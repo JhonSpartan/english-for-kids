@@ -3,6 +3,12 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import imgFilter from '../public/filter.svg';
+import imgParentsCall from '../public/parents_call.svg';
+import imgDuration from '../public/duration.svg';
+import imgNoTranslate from '../public/no_translate.svg';
+import imgManyVectors from '../public/many_vectors.svg';
+
 
 const Methodology = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -63,7 +69,8 @@ const Methodology = () => {
               // width="500px"
               // height="500px"
               // layout="fixed"
-              src="/../public/filter.svg"
+              // src="/../public/filter.svg"
+              src={imgFilter}
               alt="story1"
             />
             <div className="methodology__text-info">
@@ -81,7 +88,8 @@ const Methodology = () => {
               // width="200px"
               // height="400px"
               // layout="fixed"
-              src="/../public/parents_call.svg"
+              // src="/../public/parents_call.svg"
+              src={imgParentsCall}
               alt="story1"
             />
             <div className="methodology__text-info">
@@ -99,7 +107,8 @@ const Methodology = () => {
               // width="500px"
               // height="500px"
               // layout="fixed"
-              src="/../public/duration.svg"
+              // src="/../public/duration.svg"
+              src={imgDuration}
               alt="story1"
             />
             <div className="methodology__text-info">
@@ -117,7 +126,8 @@ const Methodology = () => {
               // width="500px"
               // height="500px"
               // layout="fixed"
-              src="/../public/no_translate.svg"
+              // src="/../public/no_translate.svg"
+              src={imgNoTranslate}
               alt="story1"
             />
             <div className="methodology__text-info">
@@ -135,7 +145,8 @@ const Methodology = () => {
               // width="500px"
               // height="500px"
               // layout="fixed"
-              src="/../public/many_vectors.svg"
+              // src="/../public/many_vectors.svg"
+              src={imgManyVectors}
               alt="story1"
             />
             <div className="methodology__text-info">

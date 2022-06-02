@@ -3,6 +3,8 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import imgTeacher1 from '../public/teacher.jpg';
+import imgTeacher2 from '../public/teacher2.jpg';
 // import ContactButton from './shared/ContactButton';
 
 const Teachers = () => {
@@ -34,7 +36,8 @@ const Teachers = () => {
             height="155px"
             layout="fixed"
             // layout="fill"
-            src="/../public/teacher.jpg"
+            // src="/../public/teacher.jpg"
+            src={imgTeacher1}
             alt="Teacher's photo"
             />
           </div>
@@ -65,7 +68,8 @@ const Teachers = () => {
             height="155px"
             layout="fixed"
             // layout="fill"
-            src="/../public/teacher2.jpg"
+            // src="/../public/teacher2.jpg"
+            src={imgTeacher2}
             alt="Teacher's photo"
             />
           </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 // import Link from 'next/link';
 import { Link } from 'react-scroll';
+import img from '../public/header4.svg';
 
 const Header = ({setActive}) => {
   return (
@@ -28,7 +29,8 @@ const Header = ({setActive}) => {
           width="100%"
           height="100%"
           priority
-          src="/../public/header4.svg"
+          // src="/../public/header4.svg"
+          src={img}
           alt="Header image"
         />
       </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import Form from './Form';
 import Image from 'next/image';
+import img from '../public/applic2.svg';
 
 const Modal = ({active, setActive}) => {
   return (
@@ -27,7 +28,8 @@ const Modal = ({active, setActive}) => {
             // width="500px"
             // height="500px"
             // layout="fixed"
-            src="/../public/applic2.svg"
+            // src="/../public/applic2.svg"
+            src={img}
             alt="story1"
           />
         </div>

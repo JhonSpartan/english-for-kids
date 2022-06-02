@@ -2,6 +2,11 @@ import Image from 'next/image';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import imgBase from '../public/base3.svg';
+import imgTeam from '../public/team3.svg';
+import imgAge from '../public/age3.svg';
+import imgReading from '../public/reading3.svg';
+
 
 const Enrollment = () => {
 
@@ -21,7 +26,9 @@ const Enrollment = () => {
               height="200px"
               layout="fixed"
               priority
-              src="/../public/base3.svg"
+              // src="/../public/base3.svg"
+              src={imgBase}
+
               alt="Age image"
             />
             <h3>База</h3>
@@ -34,7 +41,8 @@ const Enrollment = () => {
               width="400px"
               height="200px"
               priority
-              src="/../public/team3.svg"
+              // src="/../public/team3.svg"
+              src={imgTeam}
               alt="Age image"
             />
             <h3>Командная работа</h3>
@@ -47,7 +55,8 @@ const Enrollment = () => {
               // layout="fill"
               width="400px"
               height="200px"
-              src="/../public/age3.svg"
+              // src="/../public/age3.svg"
+              src={imgAge}
               alt="Age image"
               priority
             />
@@ -60,7 +69,8 @@ const Enrollment = () => {
               width="400px"
               height="200px"
               priority
-              src="/../public/reading3.svg"
+              // src="/../public/reading3.svg"
+              src={imgReading}
               alt="Age image"
             />
             <h3>Чтение</h3>
