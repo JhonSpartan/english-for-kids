@@ -1,6 +1,5 @@
 import Image from 'next/image';
 
-
 const SliderItem = ({slide})=> {
 
   return (
@@ -14,7 +13,9 @@ const SliderItem = ({slide})=> {
             height="100%"
             // priority
             layout="responsive"
-            src={`/../public/students/${slide.photo}`}
+            // src={`/../public/students/${slide.photo}`}
+            src={slide.photo}
+
             alt="story1"
           />
         </div>
